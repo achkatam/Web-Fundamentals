@@ -1,0 +1,15 @@
+.main {
+	list-style-type: upper-roman;
+}
+
+.sub {
+	list-style-type: lower-latin;
+}
+
+.subSub {
+	list-style-type: circle;
+}
+
+.subLast {
+	list-style-type: disc;
+}
