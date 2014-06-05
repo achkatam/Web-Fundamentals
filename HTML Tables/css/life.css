@@ -1,0 +1,23 @@
+﻿body {
+    font-family: Verdana;
+}
+
+td {
+    height: 90px;
+    width: 90px;
+    padding: 5px;
+    font-size: 19px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+table table td {
+    height: 30px;
+    font-size: 12px;
+}
+
+tfoot td:first-of-type {
+    font-size: 28px;
+}

@@ -1,0 +1,15 @@
+﻿table {
+    width: 28%;
+}
+
+th {
+    font-size: 27px;
+}
+
+tbody tr:first-of-type td {
+    text-align: center;
+}
+
+tfoot td{
+    text-align: right;
+}

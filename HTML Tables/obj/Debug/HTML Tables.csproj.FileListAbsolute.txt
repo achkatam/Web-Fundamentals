@@ -1,0 +1,6 @@
+E:\SoftUni\HTML & CSS\HTML Tables\bin\HTML Tables.dll.config
+E:\SoftUni\HTML & CSS\HTML Tables\bin\HTML Tables.dll
+E:\SoftUni\HTML & CSS\HTML Tables\bin\HTML Tables.pdb
+E:\SoftUni\HTML & CSS\HTML Tables\obj\Debug\HTML Tables.csprojResolveAssemblyReference.cache
+E:\SoftUni\HTML & CSS\HTML Tables\obj\Debug\HTML Tables.dll
+E:\SoftUni\HTML & CSS\HTML Tables\obj\Debug\HTML Tables.pdb
