@@ -1,6 +1,0 @@
-E:\SoftUni\HTML & CSS\HTML5Overview\bin\HTML5Overview.dll.config
-E:\SoftUni\HTML & CSS\HTML5Overview\bin\HTML5Overview.dll
-E:\SoftUni\HTML & CSS\HTML5Overview\bin\HTML5Overview.pdb
-E:\SoftUni\HTML & CSS\HTML5Overview\obj\Debug\HTML5Overview.csprojResolveAssemblyReference.cache
-E:\SoftUni\HTML & CSS\HTML5Overview\obj\Debug\HTML5Overview.dll
-E:\SoftUni\HTML & CSS\HTML5Overview\obj\Debug\HTML5Overview.pdb

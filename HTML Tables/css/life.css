@@ -2,11 +2,21 @@
     font-family: Verdana;
 }
 
+table {
+    border: 1px solid #000;
+}
+
+th {
+    border: 1px solid #000;
+
+}
+
 td {
     height: 90px;
     width: 90px;
     padding: 5px;
     font-size: 19px;
+    border: solid 1px #000;
 }
 
 h1{
