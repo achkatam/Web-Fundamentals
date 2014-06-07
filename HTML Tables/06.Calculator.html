@@ -1,0 +1,102 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link href="css/calculator.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <p>I decided to style calculator my way :) and also I have a decimal point.</p>
+    <form method="post">
+        <table border="1" cellspacing="0" cellpadding="0">
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <input type="text" id ="numbers" value="" disabled ="disabled"/>
+                    </th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="4">
+                        <input type="button" value="=" />
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="button" value="7" />
+                    </td>
+                    <td>
+                        <input type="button" value="8" />
+                    </td>
+                    <td>
+                        <input type="button" value="9" />
+                    </td>
+                    <td>
+                        <input type="button" value="/" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="4" />
+                    </td>
+                    <td>
+                        <input type="button" value="5" />
+                    </td>
+                    <td>
+                        <input type="button" value="6" />
+                    </td>
+                    <td>
+                        <input type="button" value="*" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="1" />
+                    </td>
+                    <td>
+                        <input type="button" value="2" />
+                    </td>
+                    <td>
+                        <input type="button" value="3" />
+                    </td>
+                    <td>
+                        <input type="button" value="-" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="C" />
+                    </td>
+                    <td>
+                        <input type="button" value="0" />
+                    </td>
+                    <td>
+                        <input type="button" value="." />
+                    </td>
+                    <td>
+                        <input type="button" value="+" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script>
+        var allButons = document.getElementsByTagName('input');
+        var output = document.getElementById('numbers')
+        for (var i = 0; i < allButons.length; i++) { allButons[i].addEventListener('click', onClickGetContent); }
+        function onClickGetContent(event) {
+            if (this.value === '=') { output.value = eval(output.value); }
+            else if (this.value == 'C') { output.value = ''; }
+            else { output.value = output.value + this.value; }
+        }
+
+    </script>
+
+</body>
+</html>
+
+
