@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-style: italic;
     font-family: Tahoma;
     font-size: 13px;
@@ -11,7 +11,7 @@ h1 {
 
 form {
     width: 30%;
-    background-color: #ffc0cb;
+    background-color: rgb(93, 93, 204);
     overflow: auto;
 }
 
